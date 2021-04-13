@@ -1,0 +1,8 @@
+* {
+    margin: 0 auto;
+}
+body {
+    height: 100%;
+    background-color: green;
+    display: flex;
+}

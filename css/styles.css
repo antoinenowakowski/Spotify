@@ -1,0 +1,59 @@
+/* Variables */
+
+:root {
+    --police: 'Roboto', sans-serif;
+    --background-navigation: black;
+}
+.navigation {
+    width: 230px;
+    height: 1000px;
+    background-color: var(--background-navigation);
+    margin: 0;
+}
+.logo-menu {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+    /* tailles du menu */
+.menu {
+    margin-top: 10px;
+    height: 150px;
+}
+    /* taille des bouttons par défauds */
+.button-menu {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -25px;
+    width: 100%;
+}
+    /* fond du lien */
+.button-menu:nth-child(1) {
+    background-color: #282828;
+    padding: 7px;
+    border-radius: 4px;
+}
+    /* cible le texte du lien avec sa couleur  */
+.menu > li:nth-child(1) >a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--police);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+    /* couleur des boutons  */
+.button-menu > a {  
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family: var(--police);
+    font-size: 1.2em;
+}
+    /* changement de couleur des boutons en blannc */
+.button-menu > a:hover {
+    color: white;
+    transition-duration: .3s;
+}
+.icon-next-to-link {
+    align-items: center;
+    margin-bottom: -3px;
+    padding-right: 5px;
+}
