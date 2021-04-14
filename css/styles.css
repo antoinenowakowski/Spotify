@@ -46,6 +46,7 @@
     text-decoration: none;
     font-family: var(--police);
     font-size: 1.2em;
+    font-weight: 600;
 }
     /* changement de couleur des boutons en blannc */
 .button-menu > a:hover {
