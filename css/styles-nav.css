@@ -6,9 +6,10 @@
 }
 .navigation {
     width: 230px;
-    height: 1000px;
+    height: 100%;
     background-color: var(--background-navigation);
     margin: 0;
+    position: fixed;
 }
 .logo-menu {
     margin-left: 15px;
