@@ -4,3 +4,48 @@
     --police: 'Roboto', sans-serif;
     --background-navigation: black;
 }
+.playlistes {
+    height: 500px;
+}
+.name_playliste {
+    color: #b3b3b3;
+    list-style-type: none;
+    font-family: var(--police);
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: -20px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.9em;
+}
+.name_playliste:hover {
+    color: white;
+    transition-duration: .3s;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.048);
+}
+.download-spotify {
+    align-items: center;
+}
+.link-to-download-spotify {
+    align-items: center;
+    padding: 0 16px;
+    display: flex;
+    text-decoration: none;
+}
+.icon-next-to-download-app {
+    margin-left: -80px;
+    width: 100%;
+    height: 20px;
+    color: #b3b3b3;
+    margin-right: -50px;
+}
+.text-for-download-appli {
+    color: #b3b3b3;
+    font-family: var(--police);
+    font-size: 14px;
+    margin-left: -15px;
+}
+.link-to-download-spotify:hover > .icon-next-to-download-app + .text-for-download-appli{
+    color: white;
+}
